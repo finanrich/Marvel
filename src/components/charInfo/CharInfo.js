@@ -12,7 +12,7 @@ class CharInfo extends Component {
     state = {
         char: null,
         loading: false,
-        error: false
+        error: false,
     }
 
     marvelService = new MarvelService();
